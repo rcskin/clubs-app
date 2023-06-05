@@ -1,0 +1,114 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders App component correctly 1`] = `
+<div>
+  <div
+    className="header"
+  >
+    <h1>
+      STC Extra-Curricular Clubs App
+    </h1>
+    <img
+      alt="STC logo"
+      className="logo"
+      src="STC-logo.png"
+    />
+  </div>
+  <div
+    className="app-container"
+  >
+     
+    <div
+      className="LoginPage-container"
+    >
+      <form
+        className="LoginPage"
+        onSubmit={[Function]}
+      >
+        <label
+          htmlFor="pupil-username"
+        >
+          Username:
+        </label>
+        <input
+          id="pupil-username"
+          onChange={[Function]}
+          required={true}
+          type="text"
+          value=""
+        />
+        <br />
+        <label
+          htmlFor="pupil-password"
+        >
+          Password:
+        </label>
+        <input
+          id="pupil-password"
+          onChange={[Function]}
+          required={true}
+          type="password"
+          value=""
+        />
+        <br />
+        <button
+          onClick={[Function]}
+          type="button"
+        >
+          Need to register? Click here.
+        </button>
+        <button
+          type="submit"
+        >
+          Login
+        </button>
+      </form>
+    </div>
+     
+    <div
+      className="admin-container"
+    >
+      <h3>
+        Admin Login
+      </h3>
+      <form
+        className="admin"
+        onSubmit={[Function]}
+      >
+        <label
+          htmlFor="admin-username"
+        >
+          Admin Username:
+        </label>
+        <input
+          id="admin-username"
+          onChange={[Function]}
+          required={true}
+          type="text"
+          value=""
+        />
+        <br />
+        <label
+          htmlFor="admin-password"
+        >
+          Admin Password:
+        </label>
+        <input
+          id="admin-password"
+          onChange={[Function]}
+          required={true}
+          type="password"
+          value=""
+        />
+        <br />
+        <button
+          type="submit"
+        >
+          Login
+        </button>
+      </form>
+    </div>
+     
+  </div>
+</div>
+`;

@@ -1,0 +1,185 @@
+/* Set font color and font-family of body */
+body {
+    color: black;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+  }
+
+/* Set color and size of header */
+  .header {
+    background-color: rgba(223,225,220,255);
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid black;
+    position: relative;
+  z-index: 1;
+  }
+
+  
+  .logo {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100px;
+    width: 200px;
+    margin-right: 20px;
+  }
+
+  h1{
+    padding-left: 20px;
+  }
+
+  .app-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;  
+  }
+  
+  .admin-container label, 
+  .admin-container input, 
+  .LoginPage-container label, 
+  .LoginPage-container input {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  .LoginPage-container {
+    margin-top: 100px;
+  }
+
+  button {
+    color: white;
+    background-color: rgba(128,0,0,255);
+    border-radius: 10px;
+    margin-right: 5px;
+    border: none;
+  }
+.app-container button {
+    margin-bottom: 30px;
+    font-size: 1.2em;
+    padding: 10px 20px;
+}
+  .logout-btn1, .logout-btn2 {
+    margin-left: 20px;
+  }
+  
+  
+  h2 {
+    color: rgba(128, 0, 0, 255);
+    text-align: center;
+  }
+
+  .pupil-page {
+    padding-bottom: 50px;
+  }
+
+  .pupil-page .join-btn {
+    margin-bottom: 5px;
+  }
+  
+  /* Set table styles */
+  table {
+    border-collapse: collapse;
+    width: 90%;
+    margin: 0 auto; 
+    table-layout: fixed;
+  }
+  
+  td, th {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center; /* Center the text */
+  }
+  
+  /* Set thead background color */
+  thead {
+    background-color: rgba(242, 242, 242, 255);
+  }
+  
+  /* Set tbody background color */
+  tbody {
+    background-color: white;
+  }
+  .admin-page {
+    padding-bottom: 50px;
+  }
+  .admin-page h1 {
+    color: rgba(128, 0, 0, 255);
+  }
+  /* Style the Add club form */
+  .create-club-form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    padding: 10px;
+  }
+  
+  .create-club-form div {
+    margin: 10px;
+  }
+  
+  .create-club-form label {
+    display: inline-block;
+    width: auto;
+    text-align: right;
+    margin-right: 10px;
+    font-size: 1rem;
+    margin-bottom: 10px;
+  }
+  
+  .create-club-form input {
+    width: auto;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 1rem;
+    margin-bottom: 10px;
+  }
+
+  .create-club-form button {
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+    padding: 5px 10px;
+  }
+
+  .club-table .amend-btn {
+    margin-bottom: 5px;
+    font-size: 1.2rem;
+    padding: 5px 10px;
+  }
+  
+  nav {
+    background-color: #f2f2f2;
+    padding: 10px;
+  }
+  
+  ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    margin-right: 20px;
+  }
+  
+  li:last-child {
+    margin-right: 0;
+  }
+  
+  a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
