@@ -34,17 +34,25 @@ This is using the assumption that schools have their own secure email addresses 
 i. 
 If the pupil is a new user, they can register themselves by clicking the 'Need to register?' button. This toggles additional inputs on the form for their information. They must use their school email addresses to protect their data with built in security features that school's use. In the case of this app, the username is the email address of the pupil and must end with '@stc.edu' to validate them as an approved user. If they try to add a personal email, there will be an alert to use their school email address. 
 They can add their own password, year group (example '8' if they are year/grade 8), and their name. Once finished filling in the inputs they can press the 'Register' button and are alerted to successfully registering. Then they can press the 'Already have an account? Login here' button to toggle back to the original login form.
+
 ii. If the pupil is a registered user, they enter their username and password and press the 'Login' button to navigate to their pupil dashboard. 
 
 Once logged in, the dashboard displays on the clubs from the database that match the year group they entered/are in, to reduce the amount of data being sent. 
 The user can then join a club they want by pressing the 'Join!' button. 
 If the user accidently tries to join a club they are already in, an alert telling them they are already in the club appears.
 If the pupil wants to see the list of clubs they have joined, they can press the 'Joined Clubs' link under the header. This navigates to their list of clubs for that term. 
-If the pupil wants to delete a club from their list because they no longer want to attend, they press the delete button and it removes the club from the user's database. 
-
-Note: the capacity of the club changes when a pupil adds the club. It reduces by 1 so that the club does not overfill. If the pupil deletes a club were in, the capacity for the club goes up by 1 so that the space becomes available to another user. 
-
+If the pupil wants to delete a club from their list because they no longer want to attend, they press the delete button and it removes the club from the user's database. Note: the capacity of the club changes when a pupil adds the club. It reduces by 1 so that the club does not overfill. If the pupil deletes a club were in, the capacity for the club goes up by 1 so that the space becomes available to another user. 
 The user can log out by navigating back to Pupil Dashboard and press the 'Logout' button.
+
+Some users to test out:
+username: rs23@stc.edu
+password: gremlin
+
+username: er23@stc.edu
+password: Emma123
+
+username: ds23@stc.edu
+password: David123
 
 
 How to Install and Run App Locally:
@@ -56,6 +64,10 @@ How to Install and Run App Locally:
 4. Navigate to the frontend directory: cd frontend
 5. Install the dependencies: npm install
 6. Run the app: npm start
+
+To run tests on frontend:
+1. Navigate to the frontend directory: cd frontend
+2. Run the tests: npm test
 
 
 System Architecture:
