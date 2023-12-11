@@ -10,7 +10,7 @@ const AdminLoginForm = ({ handleLogin }) => {
     e.preventDefault();
 
     // Set the endpoint URL for the admin login
-    const endpoint = "http://localhost:4000/api/user/login/admin";
+    const endpoint = "https://clubbackend.onrender.com/api/user/login/admin";
 
     // Send a POST request to the server with the username and password
     const response = await fetch(endpoint, {

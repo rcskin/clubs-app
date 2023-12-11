@@ -35,7 +35,7 @@ const AdminDashboard = ({ handleLogout }) => {
   useEffect(() => {
     const token = localStorage.getItem("token");
     // Fetch the clubs from the server
-    fetch(`http://localhost:4000/api/club`, {
+    fetch(`https://clubbackend.onrender.com/api/club`, {
       headers: {
         "Content-Type": "application/json",
         Authorization: `Bearer ${token}`,
@@ -54,7 +54,7 @@ const AdminDashboard = ({ handleLogout }) => {
       const token = localStorage.getItem("token");
 
       // Send a POST request to add a new club
-      const response = await fetch("http://localhost:4000/api/club", {
+      const response = await fetch("https://clubbackend.onrender.com/api/club", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -121,7 +121,7 @@ const AdminDashboard = ({ handleLogout }) => {
   const handleDelete = (id) => {
     console.log("Deleting club with ID:", id);
     const token = localStorage.getItem("token");
-    fetch(`http://localhost:4000/api/club/${id}`, {
+    fetch(`https://clubbackend.onrender.com/api/club/${id}`, {
       method: "DELETE",
       headers: {
         "Content-Type": "application/json",
@@ -145,7 +145,7 @@ const AdminDashboard = ({ handleLogout }) => {
     const token = localStorage.getItem("token");
     try {
       const response = await fetch(
-        `http://localhost:4000/api/club/${editingClub._id}`,
+        `https://clubbackend.onrender.com/api/club/${editingClub._id}`,
         {
           method: "PUT",
           headers: {

@@ -12,7 +12,7 @@ const PupilPage = ({ handleLogout }) => {
     const token = localStorage.getItem("token");
 
     // Fetch the clubs from the server with token needed from local storage as authentication
-    fetch(`http://localhost:4000/api/club`, {
+    fetch(`https://clubbackend.onrender.com/api/club`, {
       headers: {
         "Content-Type": "application/json",
         Authorization: `Bearer ${token}`,
@@ -62,7 +62,7 @@ const PupilPage = ({ handleLogout }) => {
     console.log("userId:", userId); // For debugging purposes
 
     // Send a POST request to join the club with the specified clubId and userId
-    fetch(`http://localhost:4000/api/club/${clubId}/user/${userId}`, {
+    fetch(`https://clubbackend.onrender.com/api/club/${clubId}/user/${userId}`, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

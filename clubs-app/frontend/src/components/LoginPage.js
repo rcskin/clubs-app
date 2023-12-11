@@ -20,8 +20,8 @@ const LoginPage = ({ handleLogin }) => {
 
     // Set the endpoint URL based on whether the user is registering or logging in
     const endpoint = isRegistering
-      ? "http://localhost:4000/api/user/register"
-      : "http://localhost:4000/api/user/login";
+      ? "https://clubbackend.onrender.com/api/user/register"
+      : "https://clubbackend.onrender.com/api/user/login";
 
     const body = isRegistering
       ? // Create request body with username, password, and yearGroup properties if registering

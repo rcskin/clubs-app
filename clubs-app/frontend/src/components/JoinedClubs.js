@@ -8,7 +8,7 @@ function JoinedClubs() {
     // Fetch the user's booked clubs when the component mounts or when the userId changes
     if (userId) {
       // Make a GET request to retrieve the user's booked clubs based on their userId
-      fetch(`http://localhost:4000/api/club/user/${userId}`)
+      fetch(`https://clubbackend.onrender.com/api/club/user/${userId}`)
         .then((response) => response.json()) // Parse the response as JSON
         .then((data) => {
           console.log(data); // Log the response data for debugging purposes
@@ -36,7 +36,7 @@ function JoinedClubs() {
       // Delete the club from the user's database
       const token = localStorage.getItem("token");
       const response = await fetch(
-        `http://localhost:4000/api/club/user/${userId}/clubs/${clubToDelete.clubName}`,
+        `https://clubbackend.onrender.com/api/club/user/${userId}/clubs/${clubToDelete.clubName}`,
         {
           method: "DELETE",
           headers: {
