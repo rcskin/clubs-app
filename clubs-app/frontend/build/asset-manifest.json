@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/static/css/main.782851bf.css",
-    "main.js": "/static/js/main.63680287.js",
+    "main.js": "/static/js/main.627188a7.js",
     "static/js/787.cda612ba.chunk.js": "/static/js/787.cda612ba.chunk.js",
     "static/media/STC-logo.png": "/static/media/STC-logo.b2c3bfe7773a7348133e.png",
     "index.html": "/index.html",
     "main.782851bf.css.map": "/static/css/main.782851bf.css.map",
-    "main.63680287.js.map": "/static/js/main.63680287.js.map",
+    "main.627188a7.js.map": "/static/js/main.627188a7.js.map",
     "787.cda612ba.chunk.js.map": "/static/js/787.cda612ba.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.782851bf.css",
-    "static/js/main.63680287.js"
+    "static/js/main.627188a7.js"
   ]
 }
